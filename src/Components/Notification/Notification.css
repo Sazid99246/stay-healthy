@@ -1,0 +1,47 @@
+.notification-card {
+  background-color: #2196f3; /* Blue background */
+  color: white;
+  padding: 24px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+}
+
+.notification-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.notification-content h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.notification-content p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.notification-content strong {
+  font-weight: 700;
+  color: white;
+}
+
+.cancel-btn {
+  margin-top: 20px;
+  background-color: #f44336;
+  border: none;
+  padding: 10px 14px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cancel-btn:hover {
+  background-color: #d32f2f;
+}
