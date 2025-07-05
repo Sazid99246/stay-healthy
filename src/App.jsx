@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Routes>
-        <Route path='/' element={<LandingPage/>}/>
-        <Route path='/login' element={<Login/>}/>
-        <Route path='/signup' element={<Sign_Up/>}/>
-        <Route path='/instant-consultation' element={<InstantConsultation/>}/>
-      </Routes>
+        <Routes>
+          <Route path='/' element={<LandingPage/>}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/signup' element={<Sign_Up/>}/>
+          <Route path='/instant-consultation' element={<InstantConsultation/>}/>
+        </Routes>
     </>
   )
 }
